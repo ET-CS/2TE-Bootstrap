@@ -9,7 +9,7 @@ This is example for complete Bootstrap skeleton website using Cheeath OR Jinja2 
 This is the way web applications should be built! with two templates engines!!
 
 ### Read more about the idea of this example and what I call first-layer/second-layer template engine
-* Read [this post](http://itekblog.com/template-engine-need-two/): Why I use Two Templates Engine in one web application.
+* Read [this post](http://itekblog.com/template-engine-why-using-two-of-them-at-once/): Why I use Two Templates Engine in one web application.
 * Based on [2TE repo](https://github.com/ET-CS/2TE). Read more at 2TE repo about the 2-Template-Engine example project.
 
 ### What different from 2TE
