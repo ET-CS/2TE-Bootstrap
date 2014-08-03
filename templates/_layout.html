@@ -21,11 +21,11 @@
     </style>
 
     {# IE10 viewport hack for Surface/desktop Windows 8 bug #}
-    <script type="text/javascript">{% include '.min/js/ie10hack.min.js' %}</script>
+    <script type="text/javascript">{{ include_file('.min/js/ie10hack.min.js') }}</script>
 
     {# Custom styles for this template #}
     <style>
-        {% include '.min/css/site.css' %}
+        {{ include_file('.min/css/site.css') }}
     </style>
 
     {# HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries #}

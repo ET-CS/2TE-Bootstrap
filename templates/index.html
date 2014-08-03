@@ -2,11 +2,11 @@
 
 {% block title %}{{ '{{ .Title }}' }}{% endblock %}
 {% block favicon %}/static/favicon.ico{% endblock %}
-{% block css %}{% include '.min/css/index.css' %}{% endblock %}
+{% block css %}{{ include_file('.min/css/index.css') }}{% endblock %}
 
 ## this must be in one line because js is not minified, 
 ## so no spaces should be inside the block
-{% block js %}{% include '.min/js/index.min.js' %}{% endblock %}
+{% block js %}{{ include_file('.min/js/index.min.js') }}{% endblock %}
 
 {% block body %}
     <h1>{{ '{{ .PageHeader }}' }}</h1>
