@@ -5,7 +5,7 @@ This is example of how to build a golang webserver with another layer of templat
 
  This repo should better be treated as starter-boilerplate more then example
 
-Based on [2TE repo](https://github.com/ET-CS/2TE), I've made an example for a complete Boostrap skeleton website using Cheeath OR Jinja2 as the First Template engine layer and Goland as the webserver/second template engine layer.
+Based on [2TE repo](https://github.com/ET-CS/2TE), I've made an example for a complete Bootstrap skeleton website using Cheeath OR Jinja2 as the First Template engine layer and Goland as the webserver/second template engine layer.
 
 ### What different from 2TE
 * I've made it more complex and arranged the folders and files as I like (and not simple).
